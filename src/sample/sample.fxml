@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="191.0">
+         <children>
+            <Button fx:id="buttonCircle" mnemonicParsing="false" onAction="#drawRandomCircle" prefHeight="45.0" prefWidth="193.0" text="circle" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="409.0">
+         <children>
+            <Canvas fx:id="drawCanvas" height="404.0" width="408.0" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
